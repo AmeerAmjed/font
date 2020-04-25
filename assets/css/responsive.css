@@ -21,12 +21,7 @@
   .contaimg {
     margin-right: -2% !important;
   }
-  .container {
-    padding-right: 0px !important;
-    padding-left: 0px !important;
-    margin-right: auto;
-    margin-left: auto;
-  }
+  
 }
 
 @media (min-width: 220px) and (max-width: 480px) {
@@ -69,10 +64,16 @@
     text-align: right !important;
   }
   .container {
-    padding-right: 0px;
-    padding-left: auto;
-    margin-right: auto;
-    margin-left: auto;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .upper-bar .container {
+    padding-right: auto !important;
+    padding-left: auto !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
   }
   .text-sm-right {
     text-align: right !important;
@@ -369,8 +370,8 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .tranining-card .container {
     margin-right: 15px !important;
-    padding-right: 14px;
-    padding-left: 14px;
+    padding-right: 14px  !important;
+    padding-left: 14px  !important;
     /* padding: 44px; */
   }
 }
