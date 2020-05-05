@@ -17,7 +17,7 @@
 </head>
 
 <body>
-       <!--start navbar-->
+    <!--start navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="logo">
             <img src="../assets/image/logo.png" />
@@ -32,17 +32,17 @@
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
-                <i class="fa fa-bars" ></i>
+                <i class="fa fa-bars"></i>
             </span>
         </button>
 
-        <div class="collapse navbar-collapse ml-4" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse ml-4 mobile" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active ">
                     <a class="nav-link " href="home.html">Home <span class="sr-only">(current)</span></a>
                 </li>
 
-                
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="true">college</a>
@@ -81,9 +81,10 @@
                                 <i class="fa fa-user"></i> Profile</a>
                         </li>
                         <li>
-                            <a class="dropdown-item" href="addproject.html"><i class="fas fa-plus-circle"></i> Project</a>
+                            <a class="dropdown-item" href="addproject.html"><i class="fas fa-plus-circle"></i>
+                                Project</a>
                         </li>
-                       
+
                         <li>
                             <a class="dropdown-item" href="about.html"><i class="fa fa-life-ring"></i> About</a>
                         </li>
@@ -97,91 +98,99 @@
         </div>
     </nav>
     <!--end navaber-->
-    
 
-          <!-- Vertical navbar -->
-    <div class="vertical-nav " id="sidebar">
-            <div class="user_info">
-                <div class="circle">
-                    <img class="profile-pic" src="">
-                </div>
-                <div class="p-image">
-                    <i class="fa fa-plus-circle fa-2x upload-button"></i>
-                    <input class="file-upload" type="file" accept="image/*" />
-                </div>
+
+    <!-- Vertical navbar -->
+    <div class="vertical-nav active " id="sidebar" >
+        <div class="user_info">
+            <div class="circle">
+                <img class="profile-pic" src="">
             </div>
-            <div class="user-name">
-                <h5>Ameer GD</h5>
-                <div class="text-center pt-2 ">
-                        <a href="https://github.com/AmeerAmjed" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                    </div>
-                <ul class="list-group text-left">
-                    <li>
-                        <i class="fa fa-graduation-cap" ></i>
-                        <span class="college"> College computer Sciences</span>
-                    </li>
-                    <li>
-                        <i class="fa fa-briefcase" ></i>
-                        <span style="margin-left: 10px;"> Not work yet  </span>
-                    </li>
-                    
-                    <li>
-                        <i class="fa fa-mobile" style="margin-left: 5px;" ></i>
-                        <span style="margin-left: 20px;"> 0780000000</span>
-                    </li>
-                    
-                </ul>
+            <div class="p-image">
+                <i class="fa fa-plus-circle fa-2x upload-button"></i>
+                <input class="file-upload" type="file" accept="image/*" />
             </div>
         </div>
-        <!-- End vertical navbar -->
-    
-        <!-- Page content holder -->
-        <div class="page-content p-5" id="content">
-            <!-- Toggle button -->
-            <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 visible-sm"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
-    
-            <!-- Demo content -->
-           
-    
-            <!-- Demo content -->
-        <div class="info">
-                <!--end header-->
-                <div >
+        <div class="user-name">
+            <h5>Ameer GD</h5>
+            <div class="text-center pt-2 ">
+                <a href="https://github.com/AmeerAmjed" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <ul class="list-group text-left">
+                <li>
+                    <i class="fa fa-graduation-cap"></i>
+                    <span class="college"> College computer Sciences</span>
+                </li>
+                <li>
+                    <i class="fa fa-briefcase"></i>
+                    <span style="margin-left: 10px;"> Not work yet </span>
+                </li>
 
-                    <!-- card project one -->
-                    <div class="card tranining">
-                        <div class="card-body">
-                            <div class="d-flex justify-content-between pb-4">
-                                <p class="text">Management College <span class="time">04:40 PM</span></p>
-                                <label class="check-box">
-                                    <input type="checkbox" />
-                                    <span></span>
-                                </label>
-                            </div>
-                            <article>
-                                Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
-                                tempor incididunalquis nostrud exercitation... 
-                                <a href="https://github.com/" target="_blank">github</a>
-                            </article>
-    
-                            <div class="card-footer"></div>
+                <li>
+                    <i class="fa fa-mobile" style="margin-left: 5px;"></i>
+                    <span style="margin-left: 20px;"> 0780000000</span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- End vertical navbar -->
+
+    <!-- Page content holder -->
+    <div class="page-content p-2  "   >
+        <!-- Toggle button -->
+        <button  id="sidebarCollapse" type="button"
+            class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 "><i class="fa fa-bars mr-2"></i></button>
+    </div>
+    <!-- Demo content -->
+
+
+    <!-- Demo content -->
+    <div class="info" >
+
+        <div class="container">
+            <div class="row ">
+
+                <!-- card project one -->
+                <div class="card tranining">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between pb-4">
+                            <p class="text">Management College <span class="time">04:40 PM</span></p>
+                            <label class="check-box">
+                                <input type="checkbox" />
+                                <span></span>
+                            </label>
                         </div>
-                        <div class="card-text card-show pt-4 ">
-                            <span>@Alaa Akiel</span>
-                        </div>
+                        <article>
+                            Lorem ipsum dolor sit amet, sectetur adipisicing elit, eiusmod
+                            tempor incididunalquis nostrud exercitation...
+                            <a href="https://github.com/" target="_blank">github</a>
+                        </article>
+
+                        <div class="card-footer"></div>
                     </div>
-                 
+                    <div class="card-text card-show pt-4 ">
+                        <span>@Alaa Akiel</span>
+                    </div>
                 </div>
+                <!-- End card project one -->
+
             </div>
         </div>
-    
-    
-    
-    
-        <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
-        <script src="../assets/js/bootstrap.min.js"></script>
-        <script src="../assets/js/popper.min.js"></script>
-        <script src="../assets/js/main.js"></script>
+
+    </div>
+
+
+    </div>
+
+
+
+
+    <script src="../assets/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/main.js"></script>
 
 </body>
+
 </html>
